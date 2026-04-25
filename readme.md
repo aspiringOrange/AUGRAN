@@ -1,18 +1,18 @@
-# 📦 AUGRAN
+# AUGRAN
 
 A **Dynamic Range-Filtering Approximate Nearest Neighbor (RFANN) Index** based on a **hierarchical segmented subgraph architecture**.
 It is specifically designed for **range-filtering scenarios**, supporting efficient **vector insertion** and **attribute updates**.
 
 ---
 
-## 🚀 Requirements
+## Requirements
 
 * A modern C++ compiler with **C++11 support**
 * **CMake ≥ 3.20**
 
 ---
 
-## 🔧 Build
+## Build
 
 ```bash
 mkdir build
@@ -23,7 +23,7 @@ make -j
 
 ---
 
-## 📖 Usage
+## Usage
 
 ### 1. Index Construction
 
@@ -149,7 +149,7 @@ make -j
 
 ---
 
-## 📊 Datasets
+## Datasets
 
 | Dataset | Type  | Dim | Attribute      |
 | ------- | ----- | --- | -------------- |
@@ -167,7 +167,7 @@ make -j
 
 ---
 
-## 🧩 Notes
+## Notes
 
 * The system is optimized for **range filtering scenarios** where attribute values may change over time.
 * Combines **graph-based ANN search** with **attribute-aware filtering**.
