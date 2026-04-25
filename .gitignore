@@ -1,0 +1,10 @@
+build/
+.idea/
+.vscode/
+.vs/
+*bin
+*query
+.txt
+*.log
+*update
+*build
